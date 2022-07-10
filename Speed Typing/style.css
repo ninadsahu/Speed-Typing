@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#343a40;
+    color: white;
+}
+
+header {
+    display: flex;
+    background-color: #6c757d !important;
+    justify-content: center;
+}
+
+header > * {
+    margin: 14px 10px;
+}
+
+img {
+    background: transparent;
+    height: 80px;
+    width: 76px;
+}
+
+header h1 {
+    padding-top: 5px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 29px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1;
+    margin-bottom: 20px;
+    color :greenyellow;
+}
+
+main p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    margin-bottom: 5px;
+}
+
+main h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 6px;
+    width:45%;
+    height:35%;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 28px;
+}
+
+textarea:focus {
+    border: 4px solid rgb(95, 255, 47);
+    outline: none;
+}
+
+button {
+    padding: 7px 14px;
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: rgba(0,0,0,0.3);
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box {
+    background: #6c757d !important;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    font-weight: 1;
+}
+
+.box .rules {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.correct {
+    color: rgb(10, 204, 10);
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 31px;
+    }
+
+    textarea {
+        width: 53%;
+    }
+
+    .box {
+        width: 53%;
+    }
+}

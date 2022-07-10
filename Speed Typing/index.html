@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Online Typing Test</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="bolt.png" alt="">
+        <h1>Typing Speed Test</h1>
+        <img src="bolt.png" alt="">
+    </header>
+
+    <main>
+        <h1 class='' id='hello'>Type The Given Text (Time Left = <span id='timer'>60</span> sec) : </h1>
+        <p class= ''id='para'></p>
+        <textarea class= '' id="longInput" cols="30" rows="10" placeholder="Start Typing..."></textarea>
+        <h3 class="hide" id="result">Your Speed: <span id="speed"></span> wpm, Accuracy: <span id="acc"></span>%</h3>
+        <a href="https://lesnip3r.github.io/vjha.github.io/speedtyping/"><button class="hide">Play Again</button></a>
+    </main>
+
+    <footer>
+        <div class="box">
+            <h2>Instructions</h2>
+            <div class="rules">Timer starts after pressing a key in the input box. After completion of the given text, another one will be displayed. At the end of 60 seconds, your typing speed will be revealed. Happy Typing!</div>
+        </div>        
+    </footer>  
+</body>
+<script type="text/javascript" src="typing.js"></script>
+</html>
